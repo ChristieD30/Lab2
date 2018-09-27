@@ -42,12 +42,17 @@ public class main {
         scanner.close();
 	
 
-        
+        //this will get the interval between the days
         Period intervalPeriod = Period.between(localOne, localTwo);
         
+        /*using .get commands (like getYears, getMonths and getDays 
+        to get the program to print out the amount of time between the input. */
         System.out.print("There are " + intervalPeriod.getYears());
+        
         System.out.print(" years, " + intervalPeriod.getMonths() +" months, ");
+        
         System.out.println("and " + intervalPeriod.getDays() + " days, between the two dates.");
+        
         System.out.println("Thank you for using this program, and have a great day!");
 		
        }
