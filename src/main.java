@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class main {
 	public static void main(String args[]) {
 		
-		
+		//This is a scanner that will allow for user input
 		Scanner scanner = new Scanner(System.in);
 		
 	    //Program greets user 
